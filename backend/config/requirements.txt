@@ -1,0 +1,7 @@
+Django==4.0.2
+djangorestframework==3.13.1
+numpy==1.23.4
+opencv-contrib-python==4.6.0.66
+python-decouple==3.6
+requests==2.27.1
+wget==3.2

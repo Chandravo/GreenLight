@@ -1,0 +1,89 @@
+body{
+    display: grid;
+    height: 100vh;
+    align-items: center;
+    justify-items: center;
+    background-color:rgb(255, 233, 233);
+}
+a{
+    margin-left: 5.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.login-flex{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    border-color: #a20635;
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.left{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    padding-top: 0.3rem;
+    padding-left: 0.3rem;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+    
+}
+.right{
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+    font-family: 'Kanit', sans-serif ;;
+
+}
+h1{
+    color: #a20635;
+    padding: 0rem;
+    margin-bottom: 0rem;
+}
+h4{
+    
+    padding: 0rem;
+    margin-top: 0.5rem;
+}
+.myform{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+input[type=submit] {
+    width: 60%;
+    background-color: #a20635;
+    color: white;
+    padding: 14px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }

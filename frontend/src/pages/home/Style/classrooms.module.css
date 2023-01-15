@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.logout{
+    
+    position: relative;
+    /* margin-top: 4rem; */
+    display: inline-block;
+    border-radius: 1rem;
+    /* box-shadow: 1px 1px 5px gray; */
+    padding: 1rem 3rem;
+    transition:0.5s;
+    color: rgb(38, 141, 45);
+    /* margin-bottom: 3rem; */
+    margin : 1rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(227, 27, 27);
+}
+.logout:hover{
+    /* box-shadow: 3px 3px 5px gray; */
+    transform: scale(1.1);
+}
+.logoutLink{
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 0rem;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.045em;
+    text-align: center;
+}
+
+.addRoom{
+    position: relative;
+    margin-top: 4rem;
+    display: inline-block;
+    border-radius: 1rem;
+    /* box-shadow: 1px 1px 5px gray; */
+    padding: 1rem 2.5rem;
+    transition:0.5s;
+    color: grey;
+    margin-bottom: 3rem;
+    margin : 1rem;
+    border:3px solid green;
+    font-size: 20px;
+    /* background-color: green; */
+    /* background-color: rgb(4, 176, 4); */
+
+}
+.addRoom a{
+    color:grey;
+    text-decoration: none;
+}
+.addRoom:hover{
+    
+    transform: scale(1.1);
+}
+.container{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.monitorHeading{
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: rgb(72, 64, 86);
+}
+.monitorPara{
+    font-family: "Montserrat";
+    color: rgb(72,64,86);
+}
+.classrooms{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    align-items: center;
+}
+.classroom{
+    display: inline-block;
+}

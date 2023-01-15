@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+
+.classRed{
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(149, 45, 45);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+.classBlue{
+    width: 20vw;
+    display:flex;
+    flex-direction: row;
+    background-color: green;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+.classData{
+    font-family:"Montserrat" ;
+    color: azure;
+    margin: 0.2rem;
+    padding-left: 0.25rem;
+    padding-right:0.25rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconContainer{
+   margin-left: 4rem;
+}
+.iconContainer img{
+    width: 30px;
+    height: 30px;
+}
+a{
+    color:white
+}
