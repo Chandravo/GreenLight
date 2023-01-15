@@ -3,5 +3,7 @@ The goal of this project is to design a software intending to conserve electrici
 
 Made by :
 [Chandravo Bhattacharya](https://github.com/Chandravo)
+
 [Tijil Malhotra](https://github.com/tijilM)
+
 [Avirat Sharma](https://github.com/Avirat201189221)
