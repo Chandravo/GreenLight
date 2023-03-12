@@ -8,7 +8,7 @@ The goal of this project is to design a software intending to conserve electrici
 
 ## Tech Stack
 
-**Client:** ReactJS
+**Client:** ReactJs
 
 **Server:** Python, Django-Rest-Framework
 
