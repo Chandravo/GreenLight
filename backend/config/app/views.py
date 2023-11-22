@@ -19,7 +19,7 @@ import cv2
 import numpy as np
 import time
 import os.path
-import wget
+# import wget
 
 import random,string
 
@@ -60,7 +60,7 @@ import random,string
 #         else:
 #             messages.add_message(request, messages.ERROR, "OTP is incorrect!")
 #             return render(request, 'reset_password.html')
-#     return render(request, 'reset.html')
+#     return render(request, 'reset.html')N
 
 class login(APIView):
     def post(self, request):
@@ -186,13 +186,13 @@ def gen(url,img):
     confThreshold = 0.5
     nmsThreshold = 0.3
 
-    classesFile = r"C:\Users\chand\django_projects\GreenLight\backend\config\app\YOLO\yolo\coco.names"
+    classesFile = r"/home/chandravo/Documents/Django/GreenLight/backend/config/coco.names"
     classNames = []
 
     with open(classesFile,'rt') as f:
         classNames = f.read().rstrip('\n').split('\n')
-    modelConfiguration = r'C:\Users\chand\django_projects\GreenLight\backend\config\app\YOLO\yolo\yolov3.cfg'
-    modelWeights = r'C:\Users\chand\django_projects\GreenLight\backend\config\app\YOLO\yolo\yolov3.weights'
+    modelConfiguration = r'/home/chandravo/Documents/Django/GreenLight/backend/config/yolov3.cfg'
+    modelWeights = r'/home/chandravo/Documents/Django/GreenLight/backend/config/yolov3.weights'
 
     net = cv2.dnn.readNetFromDarknet(modelConfiguration,modelWeights)
     net.setPreferableBackend(cv2.dnn.DNN_BACKEND_OPENCV)

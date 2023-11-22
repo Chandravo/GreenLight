@@ -61,3 +61,6 @@ docker-compose.yml
 logs
 YOLO
 pics
+yolov3.cfg
+yolov3.weights
+coco.names
