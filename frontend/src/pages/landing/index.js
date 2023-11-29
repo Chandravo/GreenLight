@@ -5,6 +5,7 @@ import About from "./Components/about"
 function Landing() {
     return (
       <div>
+      
         <Heading/>
         <About/>
         <Footer/>
@@ -13,3 +14,4 @@ function Landing() {
   }
   
   export default Landing;
+

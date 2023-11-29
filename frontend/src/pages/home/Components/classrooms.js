@@ -13,6 +13,7 @@ function Classrooms() {
             this.isLightOn = status
         }
     }
+    
 
     const [classRooms, setclassRooms] = useState([]);
     const effectRan = useRef(false);
@@ -68,9 +69,11 @@ function Classrooms() {
                     <div className={styles.classrooms}>
                         {classRooms.length === 0 ? "Data is Loading" :
                             classRooms.map((classroom) => (
+                                <a href = {classroom.cam_url}>
                                 <div id={classroom.name}>
                                     <Classroom classroom={classroom} />
                                 </div>
+                                </a>
                             ))
                         }
                     </div>

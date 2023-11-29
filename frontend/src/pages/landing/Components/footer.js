@@ -38,7 +38,8 @@ const Footer = () => (
             <div className={styles.pNo}>
               <p>+91 123456789 | Chandravo</p>
               <p>+91 987654321 | Tijil</p>
-              <p>+91 143276598 | Avirat</p>
+              <p>+91 143276598 | Lovedeep</p>
+              <p>+91 143276598 | Devanshi</p>
           </div>
         </div>
         <div className={styles.fContact}>
@@ -49,7 +50,8 @@ const Footer = () => (
               <br></br>
               <p>chandravo@thapar.edu| Chandravo</p>
               <p>tijil@thapar.edu | Tijil</p>
-              <p>avirat@thapar.edu | Avirat</p>
+              <p>+91 143276598 | Lovedeep</p>
+              <p>+91 143276598 | Devanshi</p>
           </div>
         </div>
       </div>
