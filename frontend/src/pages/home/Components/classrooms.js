@@ -44,6 +44,7 @@ function Classrooms() {
         }, 10000);
 
     }, []);
+    // const classRooms = [{'name':'Room 1', 'cam_url':'heheha', 'status':'True'}]
     const authCtx = useContext(AuthContext)
     return (
         <>
