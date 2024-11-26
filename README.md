@@ -122,4 +122,6 @@ Made by :
 
 [Tijil Malhotra](https://github.com/tijilM)
 
-[Avirat Sharma](https://github.com/Avirat201189221)
+[Lovedeep Singh](https://github.com/Lovedeep-s)
+
+[Vaniya Tripathi](https://github.com/VaniyaTripathi)
